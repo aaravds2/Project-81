@@ -1,0 +1,35 @@
+<html>
+<head>
+    <title> Guest List </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+<center>
+    <h1> Guest List </h1>
+    <span>
+        <input type="text" placeholder="Guest Name" class="name_guest">
+        <button onclick="submit()" id="submit_button"> Submit </button>
+    </span>
+    <hr>
+    <div id="guest_list"></h4>
+    <hr>
+    <div>
+        <h1> Guest List </h1>
+        <button onclick="show()"> Show </button>
+        <p id="guest_name_in_array"></p>
+    </div>
+    <hr>
+    <div>
+        <button onclick="sort()" id="sort_button"> Sort List </button>
+        <div id="sort"></div> 
+    </div>
+    <hr>
+    <span>
+        <input type="text" placeholder="search_name" class="search_name_guest">
+        <button onclick="search()"> Search </button>
+    </span>
+    <p id="guest_name_found"></p>   
+</center>
+</body>
+</html>
